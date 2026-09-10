@@ -1,0 +1,18 @@
+{
+  "id": "ru-ner-collection3",
+  "version": "1.0.0",
+  "task": "token-classification",
+  "language": "ru",
+  "entities": [
+    "PER",
+    "ORG",
+    "LOC"
+  ],
+  "runtime": "onnxruntime",
+  "source": "viktor-shcherb/sberbank-rubert-base-collection3",
+  "license": "Apache-2.0",
+  "quantization": "int8-dynamic",
+  "archive": "ru-ner-collection3-1.0.0.zip",
+  "bytes": 115841225,
+  "sha256": "d0e19fe313f61f9a859ef369dad0ca5293e5673ef51972f66295d3fbfce378ca"
+}

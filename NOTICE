@@ -1,0 +1,16 @@
+Пакеты моделей для приложения «Контур»
+
+Репозиторий содержит производные работы от модели
+  viktor-shcherb/sberbank-rubert-base-collection3
+  https://huggingface.co/viktor-shcherb/sberbank-rubert-base-collection3
+  Лицензия: Apache License 2.0
+
+Исходная модель, в свою очередь, основана на
+  ai-forever/ruBert-base (SberDevices), Apache License 2.0
+и обучена на корпусе RCC-MSU/collection3.
+
+Внесённые изменения:
+  1. Экспорт из формата PyTorch в ONNX.
+  2. Динамическое квантование весов в int8.
+
+Ни архитектура, ни обученные веса иным образом не изменялись.
